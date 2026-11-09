@@ -21,10 +21,6 @@ public final class BlockParty extends JavaPlugin {
             this
         ); 
 
-
-        Bukkit.getScheduler().runTaskLater(this, () -> {
-            Bukkit.broadcastMessage("§aBlockParty is ready! v1.0");
-        }, 20L * 10);
     }
 
     @Override
